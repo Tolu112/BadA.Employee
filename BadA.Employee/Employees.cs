@@ -24,6 +24,12 @@ namespace BadA.Employee
             Salary = _salary;
             Position = _position;
         }
+
+        //methods
+        public void EmployeeInfo()
+        {
+            Console.WriteLine($"Name: {Name}, Salary: {Salary}, Position: {Position}");
+        }
     }
 }
 
